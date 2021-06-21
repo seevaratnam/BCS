@@ -37,7 +37,7 @@ The following machines were identified on the network:
   - **Purpose**: Vulnerable Machine
   - **IP Address**: 192.168.1.115/24
   
-  ![nmap_192_168_1_0](/Users/karnan/BCS/Final Project/final_submission/defensive/images/defensive/nmap_192_168_1_0.png)
+  ![nmap_192_168_1_0](images/defensive/nmap_192_168_1_0.png)
 
 ### Description of Targets
 The target of this attack was: `Target 1` (192.168.1.110/24).
