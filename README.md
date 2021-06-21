@@ -10,7 +10,7 @@ If the alerts are working, you will then monitor live traffic on the wire to det
 
 In this unit, you will be using a new Web Vulns lab environment located in Windows Azure Lab Services. This is a diagram of the network and the machines that will be used in this lab:
 
-![](Images/final-project-setup.png)
+![](images/final-project-setup.png)
 
 Open the Hyper-V Manager to access the nested machines:
 
@@ -35,8 +35,8 @@ Open the Hyper-V Manager to access the nested machines:
 
 Here are our findings that we will be submitting to both the SOC manager and the Engineering Manager with appropriate analysis.
 
-* [Defensive Report](defensive/README.md).
-* [Offensive Report](offensive/README.md).
-* [Network Report](network/README.md).
+* [Defensive Report](defensive/README.md)
+* [Offensive Report](offensive/README.md)
+* [Network Report](network/README.md)
 
 #### 
