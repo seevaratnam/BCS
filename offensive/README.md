@@ -122,7 +122,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
         ![dirb_wordpress](images/offensive/dirb_wordpress.png)
 
-        - `wp_scan`
+        - `wpscan --url http://192.168.1.110/wordpress --enumerate u`
           - We discover two user names:
             - michael
             - steven
@@ -145,9 +145,9 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
     
     - **Exploit Used**
       - Vulnerability Scanner
-        - nmap, dirb, wp_scan
+        - *nmap, dirb, wp_scan*
       - Brute Force Attach - Dictionary Attach
-        - hydra
+        - *hydra*
       - **Commands we used:**
         - After we got access to the machine using `michael` credential via ssh, we search for files with flag as substring using the following command:
           - `find / -iname *flag* 2>/dev/nul`
@@ -159,11 +159,11 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
       - Vulnerability Scanner
 
-        - nmap, dirb, wp_scan
+        - *nmap, dirb, wp_scan*
 
       - Brute Force Attach - Dictionary Attach
 
-        - hydra
+        - *hydra*
 
       - **Commands we used:**
 
@@ -185,15 +185,15 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   
       - Vulnerability Scanner
   
-        - nmap, dirb, wp_scan
+        - *nmap, dirb, wp_scan*
   
       - Brute Force Attach - Dictionary Attach
   
-        - hydra
+        - *hydra*
   
       - Privilege Escalation
   
-        - python
+        - *python*
   
       - **Commands we used:**
 
