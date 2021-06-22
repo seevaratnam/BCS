@@ -219,7 +219,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   
         - Using the following command to `Privilege Escalation` to get the root access:
   
-          - `python -c 'import sys; pring "\n".join(sys.path)'`
+          - `python -c 'import sys; print "\n".join(sys.path)'`
   
             ![image-20210621121128630](images/offensive/privilege_escalation.png)
   
